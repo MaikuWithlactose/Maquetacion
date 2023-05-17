@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agencia.css">
+    <title>Agencia de Viajes</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo" style="color: white;">VIAJES INTERESTELARES A ESPAÑA</h2>
+    </header>
+    <main>
+        <div class="presentacion">
+
+            <h2 class="presentacionTitular"  style="color: white;" >Viajes interestelares "Planet Express", viaje a Canarias hasta Naboo por menos de lo que espera. </h2>
+            <img src="fotosAgencia/imagen7.jpg" style="color: white"; alt="" class="ofertaImg">         
+            <p class="presentacionRechula" style="color: white;">
+
+                ¡Viajes interplanetarios de ensueño! Descubre destinos del Planeta Tierra desde Naboo y Tatooine.
+
+¿Alguna vez has soñado con explorar los confines del universo? ¡Ahora es tu oportunidad! Te presentamos nuestros emocionantes viajes interestelares desde los planetas Naboo y Tatooine a tres destinos terrestres de ensueño: Canarias, Mallorca y Galicia.
+
+Desde Naboo, con su exuberante vegetación y paisajes impresionantes, hasta Tatooine, con sus desiertos y paisajes áridos, te ofrecemos una experiencia de viaje única en su tipo. Embárcate en una aventura interplanetaria y descubre la belleza de la Tierra.
+
+¿Te imaginas disfrutando de las hermosas playas de Canarias bajo el cálido sol mientras las olas rompen suavemente a tus pies? ¡Déjate sorprender por los paisajes volcánicos y las aguas cristalinas que te esperan!
+
+Explora Mallorca, un paraíso mediterráneo lleno de contrastes. Desde sus calas de aguas turquesas hasta sus majestuosas montañas, te sentirás transportado a un mundo mágico y fascinante.
+
+O adéntrate en la magia de Galicia, donde la tierra se encuentra con el mar. Descubre sus verdes paisajes, sus imponentes acantilados y sus encantadores pueblos pesqueros mientras te sumerges en la rica cultura y tradiciones gallegas.
+
+¡No pierdas esta oportunidad única de combinar el encanto de los planetas de Star Wars con los destinos terrestres más asombrosos! Reserva tu viaje interestelar ahora y vive una experiencia que te llevará más allá de las estrellas.
+
+
+
+
+
+
+
+
+
+            </p>
+        </div>
+
+        <div class="ofertas">
+            <h2 class="ofertasTitulo" style="color: white">Oferta que no podrás rechazar</h2>
+            <img src="fotosAgencia/imagen1.jpeg" alt="" class="ofertaImg">
+            <img src="fotosAgencia/imagen2.jpeg" alt="" class="ofertaImg">
+            <img src="fotosagencia/imagen6.jpg" alt="" class="masImg">
+        </div>
+        <div class="masVistos">
+            <h2 class="ofertasMas" style="color: white">+ Vistos</h2>
+            <img src="fotosagencia/imagen3.jpeg" alt="" class="masImg">
+            <img src="fotosagencia/imagen4.jpeg" alt="" class="masImg">
+            <img src="fotosagencia/imagen5.jpeg" alt="" class="masImg">
+        </div>
+    </main>
+    <div class="divFinal">
+        <div class="formulario" style="color: white" >
+            <h3> Contacto</h3>
+            <form onsubmit="enviarForm(event)">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+          
+              <label for="origen">Origen:</label>
+              <input type="text" id="origen" name="origen" required>
+          
+              <label for="destino">Destino:</label>
+              <input type="text" id="destino" name="destino" required>
+          
+              <label for="personas">Número de personas:</label>
+              <input type="number" id="personas" name="personas" required>
+
+              <label for="fecha">Fecha:</label>
+              <input type="date" id="fecha" name="fecha" required>
+          
+              <button type="button" id="solicitarInfo" onclick="enviarForm(event)">Solicitar información</button>
+              <button type="button" id="filtrar" onclick="filtrarSol()">Filtrar</button>
+            </form>
+          </div>
+          <div class="datos">
+            <h3 class=" datosTitulo" style="color: white">Datos Filtrados</h3>
+            <div class="datosFil" id="datosFiltrados"></div>
+          </div>
+    </div>
+    <script src="agenciaindex.js"></script>
+</body>
+</html>
