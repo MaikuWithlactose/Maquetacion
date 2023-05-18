@@ -13,6 +13,7 @@ body{
 
 
 header{
+    font-family: 'Press Start 2P', cursive;
     width: 100%;
     height: 12%;
     border: 3px solid rgb(85, 85, 79);
@@ -30,6 +31,7 @@ main{
 }
 
 div.presentacion {
+    font-family: 'Press Start 2P', cursive;
     width: 50%;
     height: 100%;
     display: flex;
@@ -42,6 +44,7 @@ div.presentacion {
 
 
 h2.presentacionTitulo{
+    font-family: 'Poller One', cursive;
     width: 50%;
     height: 20%;
     display: flex;
@@ -53,12 +56,14 @@ h2.presentacionTitulo{
 
 
 p.presentacionParr{
+    font-family: 'Poller One', cursive;
     width: 50%;
     height: 60%;
 }
 
 
 div.ofertas {
+    font-family: 'Poller One', cursive;
     width: 25%;
     height: 100%;
     display: flex;
@@ -67,6 +72,7 @@ div.ofertas {
     justify-content: space-around;
 }
 h2.ofertasTitulo{
+    font-family: 'Press Start 2P', cursive;
     width: 50%;
     height: 20%;
     display: flex;
@@ -82,6 +88,7 @@ img.ofertaImg{
 }
 
 div.masVistos {
+    font-family: 'Poller One', cursive;
     width: 25%;
     height: 100%;
     display: flex;
